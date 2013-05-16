@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF3CD6B17457E710081CB63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3CD6A17457E710081CB63 /* UIKit.framework */; };
+		1FF3CD6D17457E710081CB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3CD6C17457E710081CB63 /* Foundation.framework */; };
+		1FF3CD6F17457E710081CB63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3CD6E17457E710081CB63 /* CoreGraphics.framework */; };
+		1FF3CD7517457E720081CB63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD7317457E720081CB63 /* InfoPlist.strings */; };
+		1FF3CD7717457E720081CB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD7617457E720081CB63 /* main.m */; };
+		1FF3CD7B17457E720081CB63 /* SHUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD7A17457E720081CB63 /* SHUAppDelegate.m */; };
+		1FF3CD7D17457E720081CB63 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD7C17457E720081CB63 /* Default.png */; };
+		1FF3CD7F17457E720081CB63 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD7E17457E720081CB63 /* Default@2x.png */; };
+		1FF3CD8117457E720081CB63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8017457E720081CB63 /* Default-568h@2x.png */; };
+		1FF3CD8417457E720081CB63 /* SHUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8317457E720081CB63 /* SHUViewController.m */; };
+		1FF3CD8717457E720081CB63 /* SHUViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8517457E720081CB63 /* SHUViewController_iPhone.xib */; };
+		1FF3CD8A17457E720081CB63 /* SHUViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8817457E720081CB63 /* SHUViewController_iPad.xib */; };
+		1FF3CD92174580610081CB63 /* UILabel+Truncate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD91174580610081CB63 /* UILabel+Truncate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FF3CD6717457E710081CB63 /* SHULineBreakMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHULineBreakMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF3CD6A17457E710081CB63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FF3CD6C17457E710081CB63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF3CD6E17457E710081CB63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FF3CD7217457E720081CB63 /* SHULineBreakMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHULineBreakMode-Info.plist"; sourceTree = "<group>"; };
+		1FF3CD7417457E720081CB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF3CD7617457E720081CB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF3CD7817457E720081CB63 /* SHULineBreakMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHULineBreakMode-Prefix.pch"; sourceTree = "<group>"; };
+		1FF3CD7917457E720081CB63 /* SHUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHUAppDelegate.h; sourceTree = "<group>"; };
+		1FF3CD7A17457E720081CB63 /* SHUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUAppDelegate.m; sourceTree = "<group>"; };
+		1FF3CD7C17457E720081CB63 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1FF3CD7E17457E720081CB63 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1FF3CD8017457E720081CB63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1FF3CD8217457E720081CB63 /* SHUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHUViewController.h; sourceTree = "<group>"; };
+		1FF3CD8317457E720081CB63 /* SHUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUViewController.m; sourceTree = "<group>"; };
+		1FF3CD8617457E720081CB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPhone.xib; sourceTree = "<group>"; };
+		1FF3CD8917457E720081CB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPad.xib; sourceTree = "<group>"; };
+		1FF3CD90174580610081CB63 /* UILabel+Truncate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Truncate.h"; sourceTree = "<group>"; };
+		1FF3CD91174580610081CB63 /* UILabel+Truncate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Truncate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF3CD6417457E710081CB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3CD6B17457E710081CB63 /* UIKit.framework in Frameworks */,
+				1FF3CD6D17457E710081CB63 /* Foundation.framework in Frameworks */,
+				1FF3CD6F17457E710081CB63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF3CD5E17457E710081CB63 = {
+			isa = PBXGroup;
+			children = (
+				1FF3CD7017457E710081CB63 /* SHULineBreakMode */,
+				1FF3CD6917457E710081CB63 /* Frameworks */,
+				1FF3CD6817457E710081CB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF3CD6817457E710081CB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3CD6717457E710081CB63 /* SHULineBreakMode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF3CD6917457E710081CB63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3CD6A17457E710081CB63 /* UIKit.framework */,
+				1FF3CD6C17457E710081CB63 /* Foundation.framework */,
+				1FF3CD6E17457E710081CB63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF3CD7017457E710081CB63 /* SHULineBreakMode */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3CD7917457E720081CB63 /* SHUAppDelegate.h */,
+				1FF3CD90174580610081CB63 /* UILabel+Truncate.h */,
+				1FF3CD91174580610081CB63 /* UILabel+Truncate.m */,
+				1FF3CD7A17457E720081CB63 /* SHUAppDelegate.m */,
+				1FF3CD8217457E720081CB63 /* SHUViewController.h */,
+				1FF3CD8317457E720081CB63 /* SHUViewController.m */,
+				1FF3CD8517457E720081CB63 /* SHUViewController_iPhone.xib */,
+				1FF3CD8817457E720081CB63 /* SHUViewController_iPad.xib */,
+				1FF3CD7117457E720081CB63 /* Supporting Files */,
+			);
+			path = SHULineBreakMode;
+			sourceTree = "<group>";
+		};
+		1FF3CD7117457E720081CB63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3CD7217457E720081CB63 /* SHULineBreakMode-Info.plist */,
+				1FF3CD7317457E720081CB63 /* InfoPlist.strings */,
+				1FF3CD7617457E720081CB63 /* main.m */,
+				1FF3CD7817457E720081CB63 /* SHULineBreakMode-Prefix.pch */,
+				1FF3CD7C17457E720081CB63 /* Default.png */,
+				1FF3CD7E17457E720081CB63 /* Default@2x.png */,
+				1FF3CD8017457E720081CB63 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF3CD6617457E710081CB63 /* SHULineBreakMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF3CD8D17457E720081CB63 /* Build configuration list for PBXNativeTarget "SHULineBreakMode" */;
+			buildPhases = (
+				1FF3CD6317457E710081CB63 /* Sources */,
+				1FF3CD6417457E710081CB63 /* Frameworks */,
+				1FF3CD6517457E710081CB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHULineBreakMode;
+			productName = SHULineBreakMode;
+			productReference = 1FF3CD6717457E710081CB63 /* SHULineBreakMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF3CD5F17457E710081CB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SHU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shuketa;
+			};
+			buildConfigurationList = 1FF3CD6217457E710081CB63 /* Build configuration list for PBXProject "SHULineBreakMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF3CD5E17457E710081CB63;
+			productRefGroup = 1FF3CD6817457E710081CB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF3CD6617457E710081CB63 /* SHULineBreakMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF3CD6517457E710081CB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3CD7517457E720081CB63 /* InfoPlist.strings in Resources */,
+				1FF3CD7D17457E720081CB63 /* Default.png in Resources */,
+				1FF3CD7F17457E720081CB63 /* Default@2x.png in Resources */,
+				1FF3CD8117457E720081CB63 /* Default-568h@2x.png in Resources */,
+				1FF3CD8717457E720081CB63 /* SHUViewController_iPhone.xib in Resources */,
+				1FF3CD8A17457E720081CB63 /* SHUViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF3CD6317457E710081CB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3CD7717457E720081CB63 /* main.m in Sources */,
+				1FF3CD7B17457E720081CB63 /* SHUAppDelegate.m in Sources */,
+				1FF3CD8417457E720081CB63 /* SHUViewController.m in Sources */,
+				1FF3CD92174580610081CB63 /* UILabel+Truncate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF3CD7317457E720081CB63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF3CD7417457E720081CB63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FF3CD8517457E720081CB63 /* SHUViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF3CD8617457E720081CB63 /* en */,
+			);
+			name = SHUViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1FF3CD8817457E720081CB63 /* SHUViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF3CD8917457E720081CB63 /* en */,
+			);
+			name = SHUViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF3CD8B17457E720081CB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF3CD8C17457E720081CB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF3CD8E17457E720081CB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHULineBreakMode/SHULineBreakMode-Prefix.pch";
+				INFOPLIST_FILE = "SHULineBreakMode/SHULineBreakMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FF3CD8F17457E720081CB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHULineBreakMode/SHULineBreakMode-Prefix.pch";
+				INFOPLIST_FILE = "SHULineBreakMode/SHULineBreakMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF3CD6217457E710081CB63 /* Build configuration list for PBXProject "SHULineBreakMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF3CD8B17457E720081CB63 /* Debug */,
+				1FF3CD8C17457E720081CB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF3CD8D17457E720081CB63 /* Build configuration list for PBXNativeTarget "SHULineBreakMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF3CD8E17457E720081CB63 /* Debug */,
+				1FF3CD8F17457E720081CB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF3CD5F17457E710081CB63 /* Project object */;
+}
