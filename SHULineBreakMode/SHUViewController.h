@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UILabelTruncate.h"
 
 @interface SHUViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *label2;
+@property (weak, nonatomic) IBOutlet UILabelTruncate *label1;
+@property (weak, nonatomic) IBOutlet UILabelTruncate *label2;
+
 @end

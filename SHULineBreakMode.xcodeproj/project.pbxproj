@@ -19,7 +19,7 @@
 		1FF3CD8417457E720081CB63 /* SHUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8317457E720081CB63 /* SHUViewController.m */; };
 		1FF3CD8717457E720081CB63 /* SHUViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8517457E720081CB63 /* SHUViewController_iPhone.xib */; };
 		1FF3CD8A17457E720081CB63 /* SHUViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3CD8817457E720081CB63 /* SHUViewController_iPad.xib */; };
-		1FF3CD92174580610081CB63 /* UILabel+Truncate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD91174580610081CB63 /* UILabel+Truncate.m */; };
+		1FF3CD92174580610081CB63 /* UILabelTruncate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3CD91174580610081CB63 /* UILabelTruncate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,8 @@
 		1FF3CD8317457E720081CB63 /* SHUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUViewController.m; sourceTree = "<group>"; };
 		1FF3CD8617457E720081CB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPhone.xib; sourceTree = "<group>"; };
 		1FF3CD8917457E720081CB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHUViewController_iPad.xib; sourceTree = "<group>"; };
-		1FF3CD90174580610081CB63 /* UILabel+Truncate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Truncate.h"; sourceTree = "<group>"; };
-		1FF3CD91174580610081CB63 /* UILabel+Truncate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Truncate.m"; sourceTree = "<group>"; };
+		1FF3CD90174580610081CB63 /* UILabelTruncate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelTruncate.h; sourceTree = "<group>"; };
+		1FF3CD91174580610081CB63 /* UILabelTruncate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelTruncate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				1FF3CD7917457E720081CB63 /* SHUAppDelegate.h */,
-				1FF3CD90174580610081CB63 /* UILabel+Truncate.h */,
-				1FF3CD91174580610081CB63 /* UILabel+Truncate.m */,
+				1FF3CD90174580610081CB63 /* UILabelTruncate.h */,
+				1FF3CD91174580610081CB63 /* UILabelTruncate.m */,
 				1FF3CD7A17457E720081CB63 /* SHUAppDelegate.m */,
 				1FF3CD8217457E720081CB63 /* SHUViewController.h */,
 				1FF3CD8317457E720081CB63 /* SHUViewController.m */,
@@ -186,7 +186,7 @@
 				1FF3CD7717457E720081CB63 /* main.m in Sources */,
 				1FF3CD7B17457E720081CB63 /* SHUAppDelegate.m in Sources */,
 				1FF3CD8417457E720081CB63 /* SHUViewController.m in Sources */,
-				1FF3CD92174580610081CB63 /* UILabel+Truncate.m in Sources */,
+				1FF3CD92174580610081CB63 /* UILabelTruncate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +319,7 @@
 				1FF3CD8F17457E720081CB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

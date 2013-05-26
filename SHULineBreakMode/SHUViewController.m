@@ -13,7 +13,7 @@
 
 //
 #import "SHUViewController.h"
-#import "UILabel+Truncate.h"
+
 
 @interface SHUViewController ()
 
@@ -28,10 +28,13 @@
     
     //- (NSString*)stringByTruncatingStringWithFont:(UIFont *)font forWidth:(CGFloat)width lineBreakMode:(UILineBreakMode)lineBreakMode;
     
-    NSString *test = @"sakai test desu bbb ccc ddd eee fff ggg hhh iii jjj kkk lll mmm nnn";
+    NSString *test = @"sakai test desu bbb ccasdadafasfafasfasfasfafasfasfasfafaasfafac ddd eee fff ggg hhh iii jjj kkk lll mmm nnn";
 
-    [self.label2 setTruncatingText:test forNumberOfLines:1];
+    self.label2.text = test;
+//    [self.label2 setTruncatingText:test forNumberOfLines:self.label2.numberOfLines];
+  
     
+
     NSLog(@"test = %@", self.label2.text );
 }
 
